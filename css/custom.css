@@ -1,0 +1,57 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/** Top Section **/
+section.top-section {
+    height: 70vh;
+    /*background-image: linear-gradient(to right top, #a3e7df, #7deecb, #70f1a5, #83f06e, #a8eb12);}*/
+    background-image: linear-gradient(to right top, #dcf8f5, #c4fcea, #bafdd2, #deffd6, #e4e6de);
+}
+
+/** Header **/
+header.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+header.top-header .header-logo {
+    font-size: 1.5rem;
+}
+
+header.top-header .top-menu {
+    display: flex;
+}
+
+header.top-header .top-menu a {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+/** Landing **/
+.landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #333;
+}
+.landing-title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.landing-desc {
+    font-weight: 300;
+}
+.landing-image {
+    display: flex;
+    justify-content: center;
+}
